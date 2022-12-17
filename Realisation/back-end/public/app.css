@@ -1,0 +1,345 @@
+*{
+    margin:0px;
+}
+
+/* form{
+    height: 400px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: center;
+    
+} */
+body{
+    background-image: url("https://mdbootstrap.com/img/Photos/Others/images/91.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#click{
+    width:150px;
+    height: 50px;
+    border: none;
+    color: white;
+    background-color: #dc2f02;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin-left: -18px;
+}
+#typing{
+    width:200px;
+    height: 50px;
+    border-radius: 4px;
+    margin-right: 20px;
+    margin-bottom:15px;
+    padding-left:80px
+}
+
+#display{
+    
+    width:800px;
+    height: 100px;
+    margin-left: 350px;
+    margin-top: 200px;
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+    
+}
+#apprenant{
+    display:block;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 300px;
+    margin-right: 50px;
+}
+#container{
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 500px;
+    border:1px solid white;
+    background-color:#d4cdcd2d;
+    border-radius: 10px;
+
+    
+}
+
+
+
+
+
+    
+
+    
+
+#addStudent{
+    display:block;
+    padding-top:15px;
+    padding-left: 40px;
+    text-decoration: none;
+    /* margin-bottom: 250px;
+    margin-top:-80px; */
+
+    /* margin-left:300px; */
+    color: aliceblue;
+}
+#nav{
+    display:flex;
+    width: 100%;
+    height: 40px;
+    background-color: #000000;
+    justify-content:  space-evenly;
+    align-items: center;
+    
+    opacity: 0.6;
+    
+}
+#searchstudent{
+    width: 18rem;
+    height: 4rem;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding-left:50px;
+    border: none;
+
+}
+#editstudent1{
+    display: block;
+
+}
+#container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#studentedit{
+    width: 15rem;
+    height: 1.5rem;
+    border-radius: 10px;
+    border:#dc2f02 1px solid;
+}
+#buttonstudentadd{
+    background-color: #dc2f02;
+    border: none;
+    color: white;
+    width: 10rem;
+    height:2rem;
+    border-radius:20px;
+    margin-left: -190px;
+    margin-top: 20px;
+}
+#container3{
+    margin-top: -150px;
+    margin-left: 120px;
+}
+#promotion{
+    position: absolute;
+    margin-left: 40px;
+    background-color: #dc2f02;
+    border: none;
+    color: white;
+    width: 10rem;
+    height:1.75rem;
+    border-radius:20px;
+    margin-top: -27px;
+    
+}
+
+table{
+    color: aliceblue;
+    margin-left: -40px;
+}
+#studendeditbutton{
+    background-color: #027adc;
+    border: none;
+    color: white;
+    width: 10rem;
+    height:2rem;
+    border-radius:20px;
+    
+}
+
+#studentEditInput{
+    width: 15rem;
+    padding-left: 90px;
+    height: 2rem;
+    border-radius: 10px;
+    border:#027adc 1px solid;
+}
+
+#title{
+    color:white;
+    margin-bottom: -40px;
+}
+label{
+color: white;
+}
+
+
+#BriefButton{
+    width:150px;
+    height: 50px;
+    border: none;
+    color: white;
+    background-color: #ffffff00;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin-left: -18px;
+    margin-right: 80px;
+}
+
+#buttonindex{
+    background-color: transparent;
+    border:none;
+    color: white;
+}
+#addpromoinput{
+    height: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 10px;
+    border: 1px solid #00afb9;
+}
+#addpromoinput:hover{
+border-color: #dc2f02;
+box-shadow:  0px 10px 8px #00afb9;
+}
+#addpromobutton{
+    height: 40px;
+    border-radius: 10px;
+    padding-inline: 5%;
+    border: none;
+
+    background-color: #000000e3;
+    color: white;
+}
+#addpromobutton:hover{
+   background-color: #00afb9;
+}
+
+.search{
+    height: 35px;
+    padding-inline: 8%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 4px;
+    border: none;
+
+}
+#promopage{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.addstudent{
+    margin-top: 14px;
+    height: 40px;
+    border-radius: 10px;
+    padding-inline: 5%;
+    border: none;
+    color: white;
+
+
+}
+#containerpromoModified{
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+    width: 700px;
+    margin-top: 50px;
+    margin-left: 350px;
+    border:1px solid white;
+    background-color:#d4cdcd2d
+
+}
+.promoteEditInput{
+    height: 40px;
+    margin-right: 20px;
+    padding-left: 100px;
+    border-radius: 10px;
+    border: 1px solid #00afb9;
+
+
+}
+
+
+.promoteEditButton{
+    height: 40px;
+    border-radius: 10px;
+    
+    border: none;
+
+    background-color: #000000e3;
+    color: white;
+
+}
+.promo{
+    color: white;
+font-size: 2rem;
+
+}
+#formEditStudent{
+    width: 800px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 200px ;
+    margin-left: 300px;
+    border: 1px solid white;
+    background-color:#d4cdcd2d
+}
+#containerAddBrief{
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 400px;
+    border:1px solid white;
+    border-radius: 10px;
+    background-color:#d4cdcd2d
+
+}
+#containerEditBrief{
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 250px;
+    width: 450px;
+    margin-top: 50px;
+    margin-bottom: -120px;
+    margin-left: 500px;
+    border:1px solid white;
+    border-radius: 10px;
+    background-color:#d4cdcd2d
+
+}
+#containerAddTask{
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+    width: 800px;
+    margin-top: 40px;
+    margin-left: 300px;
+    border:1px solid white;
+    border-radius: 10px;
+    background-color:#d4cdcd2d
+
+}
